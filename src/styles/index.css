@@ -1,1 +1,39 @@
-<!-- Enter your CSS code here -->
+:root {
+  --primary-bgcolor: #212121;
+  --secondary-bgcolor: #393939;
+  --line-color: #ababab;
+}
+
+body {
+  background-color: var(--primary-bgcolor);
+  font-family: Verdana, sans-serif;
+}
+.news-aggregator-title {
+  width: 15rem;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 3px;
+  margin: auto;
+}
+.news-aggregator-title a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.search-bar{
+    margin: 10px;
+}
+ .search-bar hr {
+    margin: 2px;
+    color: var(--line-color);
+ }
+
+ .search-bar input {
+    background-color: var(--primary-bgcolor);
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    font-size: .8em;
+    width: 12rem;
+ }
