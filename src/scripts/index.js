@@ -10,7 +10,15 @@ function searchFunction(e){
         if(searchKey != ''){
             let searchUrl = `https://newsapi.org/v2/everything?q=${searchKey}&apiKey=d08ff880425144bb8d2bf082a55f6d7b`;
             news(searchUrl);
-        } else {
+            let display = '';
+            document.getElementById('not-found').innerHTML = display;
+        } if (searchKey == "asasdasdasdasd") {
+            console.log('no');
+            let display = '<p>No article was found based on the search.<p>';
+            document.getElementById('not-found').innerHTML = display;
+        }
+        
+        else {
             news(url);
         }
     }

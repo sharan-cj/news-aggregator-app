@@ -37,7 +37,10 @@ body {
   font-size: 0.8em;
   width: 12rem;
 }
-
+.not-found {
+    color: #fff;
+    height: 30px;
+}
 #news-articles {
   display: flex;
   flex-flow: row;
