@@ -36,7 +36,7 @@ async function news(url){
             <li class="article">
                 <img class="article-img"  src="${item.urlToImage}">
                 <h2 class="article-title">${item.title}</h2>
-                <p class="article-description">${item.content}</p>
+                <p class="-article-description">${item.content}</p>
                 <span class="article-author"> - ${item.author}</span>
                 <a class="article-link" href="${item.url}" target="_blank">Read more...</a>
             </li>
