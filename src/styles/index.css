@@ -37,3 +37,30 @@ body {
     font-size: .8em;
     width: 12rem;
  }
+
+ #news-articles {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+ }
+
+ .article {
+    background-color: var(--secondary-bgcolor);
+    width: 15rem;
+    height: 25rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    list-style: none;
+    color: white;
+    justify-content: space-evenly;
+    border-radius: .5rem;
+
+ }
+
+ .article-img {
+    width: 90%;
+    height: 50%;
+ }
