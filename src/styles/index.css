@@ -66,7 +66,7 @@ body {
 
 .article-img {
   width: 100%;
-  height: 280px;
+  height: 250px;
   border-radius: 5%;
 }
 
@@ -75,7 +75,7 @@ body {
   font-size: medium;
   margin: 5%;
 }
-.-article-description {
+.article-description {
   height: 200px;
   font-size: small;
   margin: 5%;
